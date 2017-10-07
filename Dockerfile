@@ -1,3 +1,3 @@
 FROM jupyter/scipy-notebook
-COPY ./ /root/ai_coding
-WORKDIR /root/ai_coding
+RUN mkdir /home/jovyan/ai_coding
+COPY ./ /home/jovyan/ai_coding/
